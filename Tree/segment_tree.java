@@ -20,7 +20,7 @@ class segment_tree
 		int sum=obj.query(arr, left-1, right-1);
 		
 		System.out.println("Sum of Array = "+allSum);
-		System.out.println("Sum of Query = "+sum);
+		System.out.println("Sum of Query = "+sum); 
 		
 		int ind, val;		
 		System.out.print("Enter the index position = ");
