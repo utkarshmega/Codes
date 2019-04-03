@@ -31,7 +31,7 @@ public class inversionInArray
                 arr[k++]=R1[j];
                 j++;
                 /*The toal number of elements is calculated by U.B.-L.B.+1, but here since i is incremented by 1 already before therefore 1 is subtracted*/
-                count+=m-i+1-1;
+                count+=n1-i;
             }
         }
         while(i<n1)
